@@ -1,0 +1,571 @@
+{
+  "beverages": [
+    {
+      "id": "coffee-1",
+      "name": "Etiopia Yirgacheffe",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "espresso",
+      "roast": "light",
+      "description": "Kwaskowate, jagodowe nuty z goryczką"
+    },
+    {
+      "id": "coffee-2",
+      "name": "Brazylia Santos",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "espresso",
+      "roast": "medium",
+      "description": "Czekoladowe, orzechowe, klasyczne espresso"
+    },
+    {
+      "id": "coffee-3",
+      "name": "Włoska mieszanka",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "espresso",
+      "roast": "dark",
+      "description": "Intensywnie gorzka, palone kakao"
+    },
+    {
+      "id": "coffee-4",
+      "name": "Kolumbia Supremo",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "z-mlekiem",
+      "roast": "light",
+      "description": "Cytrusowe z mlekiem, aksamitne"
+    },
+    {
+      "id": "coffee-5",
+      "name": "Gwatemala Antigua",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "z-mlekiem",
+      "roast": "medium",
+      "description": "Czekoladowo-karmelowe cappuccino"
+    },
+    {
+      "id": "coffee-6",
+      "name": "Sumatra Mandheling",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "z-mlekiem",
+      "roast": "dark",
+      "description": "Ciężkie, ziemiste, mocne latte"
+    },
+    {
+      "id": "coffee-7",
+      "name": "Kenia AA",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "przelewowa",
+      "roast": "light",
+      "description": "Jasna, winna, z gorzkimi nutami grejpfruta"
+    },
+    {
+      "id": "coffee-8",
+      "name": "Kostaryka Tarrazu",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "przelewowa",
+      "roast": "medium",
+      "description": "Zrównoważona, czekoladowo-orzechowa"
+    },
+    {
+      "id": "coffee-9",
+      "name": "Nikaragua Maragogipe",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "przelewowa",
+      "roast": "dark",
+      "description": "Pełna, dymna, gorzka czekolada"
+    },
+    {
+      "id": "coffee-10",
+      "name": "Rwanda Bourbon",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "alternatywna",
+      "roast": "light",
+      "description": "Cold brew z kwiatowymi nutami"
+    },
+    {
+      "id": "coffee-11",
+      "name": "Honduras Marcala",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "alternatywna",
+      "roast": "medium",
+      "description": "French press, pełne ciało"
+    },
+    {
+      "id": "coffee-12",
+      "name": "Indie Monsooned Malabar",
+      "type": "kawa",
+      "profile": "gorzki-czekoladowy",
+      "method": "alternatywna",
+      "roast": "dark",
+      "description": "Niska kwasowość, ziemista"
+    },
+    {
+      "id": "coffee-13",
+      "name": "Kostaryka Honey Process",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "espresso",
+      "roast": "light",
+      "description": "Miodowe, migdałowe"
+    },
+    {
+      "id": "coffee-14",
+      "name": "Brazylia Yellow Bourbon",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "espresso",
+      "roast": "medium",
+      "description": "Karmelowe, masło orzechowe"
+    },
+    {
+      "id": "coffee-15",
+      "name": "Peru Dark Roast",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "espresso",
+      "roast": "dark",
+      "description": "Pralinowe, czekoladowe"
+    },
+    {
+      "id": "coffee-16",
+      "name": "Kolumbia Huila",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "z-mlekiem",
+      "roast": "light",
+      "description": "Słodkie latte z nutami karmelu"
+    },
+    {
+      "id": "coffee-17",
+      "name": "Gwatemala Huehuetenango",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "z-mlekiem",
+      "roast": "medium",
+      "description": "Flat white z nugatem"
+    },
+    {
+      "id": "coffee-18",
+      "name": "Brazylia Cerrado",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "z-mlekiem",
+      "roast": "dark",
+      "description": "Kremowe cappuccino z orzechami"
+    },
+    {
+      "id": "coffee-19",
+      "name": "Panama Boquete",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "przelewowa",
+      "roast": "light",
+      "description": "Delikatna, miodowa"
+    },
+    {
+      "id": "coffee-20",
+      "name": "El Salvador Pacamara",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "przelewowa",
+      "roast": "medium",
+      "description": "Karmelowo-orzechowa harmonia"
+    },
+    {
+      "id": "coffee-21",
+      "name": "Tanzania Peaberry",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "przelewowa",
+      "roast": "dark",
+      "description": "Pełna, winowa z orzechami"
+    },
+    {
+      "id": "coffee-22",
+      "name": "Burundi",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "alternatywna",
+      "roast": "light",
+      "description": "Aeropress, cytrusowo-karmelowy"
+    },
+    {
+      "id": "coffee-23",
+      "name": "Jamajka Blue Mountain",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "alternatywna",
+      "roast": "medium",
+      "description": "French press, luksusowo łagodna"
+    },
+    {
+      "id": "coffee-24",
+      "name": "Hawaje Kona",
+      "type": "kawa",
+      "profile": "orzechowy-karmelowy",
+      "method": "alternatywna",
+      "roast": "dark",
+      "description": "Smooth, orzechowo-karmelowy"
+    },
+    {
+      "id": "coffee-25",
+      "name": "Etiopia Sidamo",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "espresso",
+      "roast": "light",
+      "description": "Jagodowe espresso, intensywnie owocowe"
+    },
+    {
+      "id": "coffee-26",
+      "name": "Kenia Nyeri",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "espresso",
+      "roast": "medium",
+      "description": "Porzeczkowe, wytrawne"
+    },
+    {
+      "id": "coffee-27",
+      "name": "Jemen Mokha",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "espresso",
+      "roast": "dark",
+      "description": "Winowe, przyprawowe"
+    },
+    {
+      "id": "coffee-28",
+      "name": "Rwanda",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "z-mlekiem",
+      "roast": "light",
+      "description": "Kwiatowe latte z nutami brzoskwini"
+    },
+    {
+      "id": "coffee-29",
+      "name": "Etiopia Limu",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "z-mlekiem",
+      "roast": "medium",
+      "description": "Cappuccino z nutami winogron"
+    },
+    {
+      "id": "coffee-30",
+      "name": "Burundi Dark",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "z-mlekiem",
+      "roast": "dark",
+      "description": "Mocne, wiśniowe flat white"
+    },
+    {
+      "id": "coffee-31",
+      "name": "Etiopia Guji",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "przelewowa",
+      "roast": "light",
+      "description": "Mango, jagody, kwiatowe nuty"
+    },
+    {
+      "id": "coffee-32",
+      "name": "Panama Geisha",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "przelewowa",
+      "roast": "medium",
+      "description": "Jaśminowe, bergamotowe (premium)"
+    },
+    {
+      "id": "coffee-33",
+      "name": "Papua Nowa Gwinea",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "przelewowa",
+      "roast": "dark",
+      "description": "Tropikalne owoce, pełna"
+    },
+    {
+      "id": "coffee-34",
+      "name": "Etiopia Natural",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "alternatywna",
+      "roast": "light",
+      "description": "Cold brew o smaku truskawek"
+    },
+    {
+      "id": "coffee-35",
+      "name": "Kostaryka Medium",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "alternatywna",
+      "roast": "medium",
+      "description": "Aeropress z nutami cytrusów"
+    },
+    {
+      "id": "coffee-36",
+      "name": "Tanzania AA Dark",
+      "type": "kawa",
+      "profile": "kwaskowaty-owocowy",
+      "method": "alternatywna",
+      "roast": "dark",
+      "description": "French press, wiśniowo-cytrusowy"
+    },
+    {
+      "id": "tea-1",
+      "name": "Biała herbata Silver Needle",
+      "type": "herbata",
+      "effect": "pobudzenie",
+      "intensity": "delikatna",
+      "timeOfDay": "rano",
+      "description": "Subtelna, kwiatowa, łagodne pobudzenie"
+    },
+    {
+      "id": "tea-2",
+      "name": "Zielona herbata Sencha",
+      "type": "herbata",
+      "effect": "pobudzenie",
+      "intensity": "delikatna",
+      "timeOfDay": "popoludnie",
+      "description": "Świeża, trawiasta, naturalna energia"
+    },
+    {
+      "id": "tea-3",
+      "name": "Jaśminowa zielona",
+      "type": "herbata",
+      "effect": "pobudzenie",
+      "intensity": "delikatna",
+      "timeOfDay": "wieczor",
+      "description": "Relaksująco-pobudzająca, aromatyczna"
+    },
+    {
+      "id": "tea-4",
+      "name": "Yerba Mate",
+      "type": "herbata",
+      "effect": "pobudzenie",
+      "intensity": "srednia",
+      "timeOfDay": "rano",
+      "description": "Mocne pobudzenie bez nerwowości"
+    },
+    {
+      "id": "tea-5",
+      "name": "Zielona herbata Gunpowder",
+      "type": "herbata",
+      "effect": "pobudzenie",
+      "intensity": "srednia",
+      "timeOfDay": "popoludnie",
+      "description": "Intensywna, orzeźwiająca"
+    },
+    {
+      "id": "tea-6",
+      "name": "Oolong Tie Guan Yin",
+      "type": "herbata",
+      "effect": "pobudzenie",
+      "intensity": "srednia",
+      "timeOfDay": "wieczor",
+      "description": "Częściowo fermentowana, energetyzująca"
+    },
+    {
+      "id": "tea-7",
+      "name": "Assam TGFOP",
+      "type": "herbata",
+      "effect": "pobudzenie",
+      "intensity": "mocna",
+      "timeOfDay": "rano",
+      "description": "Czarna, mocna, słodowa"
+    },
+    {
+      "id": "tea-8",
+      "name": "Matcha",
+      "type": "herbata",
+      "effect": "pobudzenie",
+      "intensity": "mocna",
+      "timeOfDay": "popoludnie",
+      "description": "Sproszkowana, maksymalna koncentracja"
+    },
+    {
+      "id": "tea-9",
+      "name": "Pu-erh",
+      "type": "herbata",
+      "effect": "pobudzenie",
+      "intensity": "mocna",
+      "timeOfDay": "wieczor",
+      "description": "Fermentowana, ziemista, długotrwałe pobudzenie"
+    },
+    {
+      "id": "tea-10",
+      "name": "Biała herbata Pai Mu Tan",
+      "type": "herbata",
+      "effect": "relaks",
+      "intensity": "delikatna",
+      "timeOfDay": "rano",
+      "description": "Delikatnie uspokajająca"
+    },
+    {
+      "id": "tea-11",
+      "name": "Rumianek",
+      "type": "herbata",
+      "effect": "relaks",
+      "intensity": "delikatna",
+      "timeOfDay": "popoludnie",
+      "description": "Łagodzący, przeciwzapalny"
+    },
+    {
+      "id": "tea-12",
+      "name": "Melisa",
+      "type": "herbata",
+      "effect": "relaks",
+      "intensity": "delikatna",
+      "timeOfDay": "wieczor",
+      "description": "Uspokajająca, ułatwiająca zasypianie"
+    },
+    {
+      "id": "tea-13",
+      "name": "Jaśminowa perła",
+      "type": "herbata",
+      "effect": "relaks",
+      "intensity": "srednia",
+      "timeOfDay": "rano",
+      "description": "Relaksująca, aromatyczna"
+    },
+    {
+      "id": "tea-14",
+      "name": "Lawenda",
+      "type": "herbata",
+      "effect": "relaks",
+      "intensity": "srednia",
+      "timeOfDay": "popoludnie",
+      "description": "Kojąca, aromaterapeutyczna"
+    },
+    {
+      "id": "tea-15",
+      "name": "Ashwagandha",
+      "type": "herbata",
+      "effect": "relaks",
+      "intensity": "srednia",
+      "timeOfDay": "wieczor",
+      "description": "Adaptogenna, redukująca stres"
+    },
+    {
+      "id": "tea-16",
+      "name": "Oolong Da Hong Pao",
+      "type": "herbata",
+      "effect": "relaks",
+      "intensity": "mocna",
+      "timeOfDay": "rano",
+      "description": "Głęboko relaksujący"
+    },
+    {
+      "id": "tea-17",
+      "name": "Waleriana",
+      "type": "herbata",
+      "effect": "relaks",
+      "intensity": "mocna",
+      "timeOfDay": "popoludnie",
+      "description": "Silnie uspokajająca"
+    },
+    {
+      "id": "tea-18",
+      "name": "Pasiflora (męczennica)",
+      "type": "herbata",
+      "effect": "relaks",
+      "intensity": "mocna",
+      "timeOfDay": "wieczor",
+      "description": "Nasenna, głęboki relaks"
+    },
+    {
+      "id": "tea-19",
+      "name": "Zielona herbata z miętą",
+      "type": "herbata",
+      "effect": "trawienie",
+      "intensity": "delikatna",
+      "timeOfDay": "rano",
+      "description": "Łagodnie wspomagająca"
+    },
+    {
+      "id": "tea-20",
+      "name": "Herbata owocowa z pigwą",
+      "type": "herbata",
+      "effect": "trawienie",
+      "intensity": "delikatna",
+      "timeOfDay": "popoludnie",
+      "description": "Delikatna dla żołądka"
+    },
+    {
+      "id": "tea-21",
+      "name": "Rumianek z melisą",
+      "type": "herbata",
+      "effect": "trawienie",
+      "intensity": "delikatna",
+      "timeOfDay": "wieczor",
+      "description": "Łagodząca, przeciwwzdęciowa"
+    },
+    {
+      "id": "tea-22",
+      "name": "Herbata miętowa",
+      "type": "herbata",
+      "effect": "trawienie",
+      "intensity": "srednia",
+      "timeOfDay": "rano",
+      "description": "Pobudza trawienie"
+    },
+    {
+      "id": "tea-23",
+      "name": "Imbirowa",
+      "type": "herbata",
+      "effect": "trawienie",
+      "intensity": "srednia",
+      "timeOfDay": "popoludnie",
+      "description": "Przeciwzapalna, stymulująca"
+    },
+    {
+      "id": "tea-24",
+      "name": "Herbata z kopru włoskiego",
+      "type": "herbata",
+      "effect": "trawienie",
+      "intensity": "srednia",
+      "timeOfDay": "wieczor",
+      "description": "Przeciwwzdęciowa"
+    },
+    {
+      "id": "tea-25",
+      "name": "Pu-erh Trawienie",
+      "type": "herbata",
+      "effect": "trawienie",
+      "intensity": "mocna",
+      "timeOfDay": "rano",
+      "description": "Probiotyczna, wspomaga metabolizm"
+    },
+    {
+      "id": "tea-26",
+      "name": "Yerba mate z miętą",
+      "type": "herbata",
+      "effect": "trawienie",
+      "intensity": "mocna",
+      "timeOfDay": "popoludnie",
+      "description": "Trawienno-pobudzająca"
+    },
+    {
+      "id": "tea-27",
+      "name": "Herbata z senesu",
+      "type": "herbata",
+      "effect": "trawienie",
+      "intensity": "mocna",
+      "timeOfDay": "wieczor",
+      "description": "Przeczyszczająca (ostrożnie!)"
+    }
+  ]
+}
