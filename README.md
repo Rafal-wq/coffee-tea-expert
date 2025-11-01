@@ -11,7 +11,7 @@ System ekspercki do doboru napojów - Inteligentne rekomendacje kawy i herbaty d
 
 
 <p align="center">
-  <img src="./frame.png" alt="QR Code" width="200"/>
+  <img src="./public/frame.png" alt="QR Code" width="200"/>
   <br>
   <i>Zeskanuj, aby otworzyć aplikację na telefonie</i>
 </p>
