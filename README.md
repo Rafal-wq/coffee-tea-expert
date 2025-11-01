@@ -1,9 +1,6 @@
-```markdown
 # ☕🍵 Kawa lub herbata na miarę
 
 System ekspercki do doboru napojów - Inteligentne rekomendacje kawy i herbaty dopasowane do Twoich preferencji.
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://coffee-tea-expert.netlify.app/)
 
 ## 🌐 Demo na żywo
 
@@ -11,10 +8,11 @@ System ekspercki do doboru napojów - Inteligentne rekomendacje kawy i herbaty d
 
 ### 📱 Zeskanuj kod QR:
 
-<div align="center">
+<p align="center">
   <img src="./frame.png" alt="QR Code" width="200"/>
-  <p><i>Zeskanuj, aby otworzyć aplikację na telefonie</i></p>
-</div>
+  <br>
+  <i>Zeskanuj, aby otworzyć aplikację na telefonie</i>
+</p>
 
 ---
 
@@ -44,23 +42,31 @@ Stworzenie prostego, intuicyjnego systemu ekspertowego, który:
 
 ---
 
-## 🤖 Metody sztucznej inteligencji
+## 🤖 Metoda sztucznej inteligencji
 
 ### Drzewo Decyzyjne (Decision Tree)
 
 Projekt wykorzystuje klasyczną metodę AI - **drzewo decyzyjne** z wnioskowaniem w przód (forward chaining).
 
+**Zalety zastosowanego podejścia:**
+- 🎯 **Deterministyczne wyniki** - jedna konkretna rekomendacja
+- 🚀 **Efektywna eliminacja** - pomija nieistotne pytania (np. po wyborze kawy nie pyta o herbatę)
+- 🔍 **Przejrzystość logiki** - użytkownik rozumie ścieżkę prowadzącą do wyniku
+- ⚡ **Wydajność** - brak potrzeby uczenia maszynowego czy dużych zbiorów danych
+
 **Struktura drzewa:**
 ```
 START (Kawa/Herbata)
-├─ KAWA
-│  ├─ Profil smakowy (3 opcje)
-│  ├─ Metoda parzenia (4 opcje)
-│  └─ Stopień wypalenia (3 opcje)
-└─ HERBATA
-   ├─ Efekt (3 opcje)
-   ├─ Intensywność (3 opcje)
-   └─ Pora dnia (3 opcje)
+│
+├── KAWA
+│   ├── Profil smakowy (3 opcje)
+│   ├── Metoda parzenia (4 opcje)
+│   └── Stopień wypalenia (3 opcje)
+│
+└── HERBATA
+    ├── Efekt (3 opcje)
+    ├── Intensywność (3 opcje)
+    └── Pora dnia (3 opcje)
 ```
 
 ---
@@ -91,31 +97,36 @@ START (Kawa/Herbata)
 ---
 
 ## 📂 Struktura projektu
-
 ```
 coffee-tea-expert/
-├── public/              # Pliki statyczne
+│
+├── public/
+│
 ├── src/
-│   ├── components/      # Komponenty React
+│   ├── components/
 │   │   ├── Header.jsx
 │   │   ├── ProgressBar.jsx
 │   │   ├── Question.jsx
 │   │   ├── Result.jsx
 │   │   └── ResetButton.jsx
-│   ├── data/            # Dane aplikacji
-│   │   ├── beverages.json    # Baza 54 napojów
-│   │   └── questions.js      # Definicje pytań
-│   ├── utils/           # Funkcje pomocnicze
-│   │   ├── sessionManager.js     # Zarządzanie localStorage
-│   │   └── filterBeverages.js    # Logika filtrowania
-│   ├── App.jsx          # Główny komponent
-│   ├── App.css          # Style aplikacji
-│   ├── index.css        # Globalne style
-│   └── main.jsx         # Entry point
+│   │
+│   ├── data/
+│   │   ├── beverages.json
+│   │   └── questions.js
+│   │
+│   ├── utils/
+│   │   ├── sessionManager.js
+│   │   └── filterBeverages.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
 ├── .gitignore
 ├── package.json
 ├── vite.config.js
-├── frame.png            # Kod QR do aplikacji
+├── frame.png
 └── README.md
 ```
 
@@ -124,34 +135,33 @@ coffee-tea-expert/
 ## 🚀 Instalacja i uruchomienie
 
 ### Wymagania
-- **Node.js** 18.x lub nowszy
-- **npm** 9.x lub nowszy
+- Node.js 18.x lub nowszy
+- npm 9.x lub nowszy
 
 ### Krok po kroku
 
-1. **Sklonuj repozytorium:**
+**1. Sklonuj repozytorium:**
 ```bash
-git clone https://github.com/Rafal-wq/coffee-tea-expert.git
+git clone https://github.com/twoja-nazwa/coffee-tea-expert.git
 cd coffee-tea-expert
 ```
 
-2. **Zainstaluj zależności:**
+**2. Zainstaluj zależności:**
 ```bash
 npm install
 ```
 
-3. **Uruchom serwer deweloperski:**
+**3. Uruchom serwer deweloperski:**
 ```bash
 npm run dev
 ```
 
-4. **Otwórz w przeglądarce:**
+**4. Otwórz w przeglądarce:**
 ```
 http://localhost:5173/
 ```
 
 ### Budowanie wersji produkcyjnej
-
 ```bash
 npm run build
 ```
@@ -159,7 +169,6 @@ npm run build
 Pliki produkcyjne znajdą się w folderze `dist/`.
 
 ### Preview buildu
-
 ```bash
 npm run preview
 ```
@@ -170,15 +179,25 @@ npm run preview
 
 Aplikacja zawiera **54 starannie dobranych napojów**:
 
-### Kawy (36):
-- **Gorzkie, czekoladowe** - 12 wariantów (Etiopia Yirgacheffe, Brazylia Santos, Włoska mieszanka, etc.)
-- **Orzechowe, karmelowe** - 12 wariantów (Kostaryka Honey Process, Jamajka Blue Mountain, Hawaje Kona, etc.)
-- **Kwaskowate, owocowe** - 12 wariantów (Etiopia Sidamo, Panama Geisha, Kenia Nyeri, etc.)
+### Kawy (36)
+- **Gorzkie, czekoladowe** - 12 wariantów
+  - Etiopia Yirgacheffe, Brazylia Santos, Włoska mieszanka, Kolumbia Supremo, Gwatemala Antigua, Sumatra Mandheling, Kenia AA, Kostaryka Tarrazu, Nikaragua Maragogipe, Rwanda Bourbon, Honduras Marcala, Indie Monsooned Malabar
 
-### Herbaty (27):
-- **Pobudzenie** - 9 wariantów (Matcha, Yerba Mate, Assam TGFOP, etc.)
-- **Relaks** - 9 wariantów (Rumianek, Melisa, Waleriana, etc.)
-- **Trawienie** - 9 wariantów (Pu-erh, Herbata miętowa, Imbirowa, etc.)
+- **Orzechowe, karmelowe** - 12 wariantów
+  - Kostaryka Honey Process, Brazylia Yellow Bourbon, Peru Dark Roast, Kolumbia Huila, Gwatemala Huehuetenango, Brazylia Cerrado, Panama Boquete, El Salvador Pacamara, Tanzania Peaberry, Burundi, Jamajka Blue Mountain, Hawaje Kona
+
+- **Kwaskowate, owocowe** - 12 wariantów
+  - Etiopia Sidamo, Kenia Nyeri, Jemen Mokha, Rwanda, Etiopia Limu, Burundi Dark, Etiopia Guji, Panama Geisha, Papua Nowa Gwinea, Etiopia Natural, Kostaryka Medium, Tanzania AA Dark
+
+### Herbaty (27)
+- **Pobudzenie** - 9 wariantów
+  - Biała herbata Silver Needle, Zielona herbata Sencha, Jaśminowa zielona, Yerba Mate, Zielona herbata Gunpowder, Oolong Tie Guan Yin, Assam TGFOP, Matcha, Pu-erh
+
+- **Relaks** - 9 wariantów
+  - Biała herbata Pai Mu Tan, Rumianek, Melisa, Jaśminowa perła, Lawenda, Ashwagandha, Oolong Da Hong Pao, Waleriana, Pasiflora (męczennica)
+
+- **Trawienie** - 9 wariantów
+  - Zielona herbata z miętą, Herbata owocowa z pigwą, Rumianek z melisą, Herbata miętowa, Imbirowa, Herbata z kopru włoskiego, Pu-erh Trawienie, Yerba mate z miętą, Herbata z senesu
 
 **Format danych (JSON):**
 ```json
@@ -198,11 +217,13 @@ Aplikacja zawiera **54 starannie dobranych napojów**:
 ## 🎨 Design
 
 ### Paleta kolorów
-- **Primary (Coffee):** `#6f4e37` - brązowy kawa
-- **Secondary:** `#8b7355` - jasny brąz
-- **Accent (Tea):** `#4a7c59` - zielona herbata
-- **Background:** `#f5f5f0` - kremowy
-- **Text:** `#333333` - ciemnoszary
+| Kolor | Hex | Zastosowanie |
+|-------|-----|--------------|
+| Coffee Brown | `#6f4e37` | Główny kolor (Primary) |
+| Light Brown | `#8b7355` | Drugorzędny (Secondary) |
+| Tea Green | `#4a7c59` | Akcent (Accent) |
+| Cream | `#f5f5f0` | Tło (Background) |
+| Dark Gray | `#333333` | Tekst (Text) |
 
 ### Typografia
 - **Font family:** System fonts (-apple-system, Segoe UI, Roboto)
@@ -212,20 +233,20 @@ Aplikacja zawiera **54 starannie dobranych napojów**:
 
 ## 🔮 Możliwości rozwoju
 
-### 🎯 Priorytety krótkoterminowe:
+### 🎯 Priorytety krótkoterminowe
 - [ ] Historia rekomendacji użytkownika
 - [ ] System ulubieńców
 - [ ] Eksport wyniku do PDF/obrazu
 - [ ] Udostępnianie w social media
 
-### 🚀 Rozwój średnioterminowy:
+### 🚀 Rozwój średnioterminowy
 - [ ] Rozbudowa bazy do 100+ napojów
 - [ ] Dodatkowe filtry (cena, dostępność)
 - [ ] Integracja z API sklepów
 - [ ] Progressive Web App (PWA)
 - [ ] Tryb ciemny (dark mode)
 
-### 💡 Wizja długoterminowa:
+### 💡 Wizja długoterminowa
 - [ ] Konta użytkowników (autentykacja)
 - [ ] Backend (Node.js + PostgreSQL)
 - [ ] Collaborative filtering (AI/ML)
@@ -236,6 +257,14 @@ Aplikacja zawiera **54 starannie dobranych napojów**:
 
 ---
 
+## 🤝 Współpraca
+
+Projekt otwarty na:
+- 🐛 Zgłoszenia błędów (Issues)
+- 💡 Propozycje nowych funkcji
+- 🔀 Pull requesty
+- ⭐ Gwiazdki na GitHubie!
+
 ### Jak dodać nowy napój?
 
 1. Otwórz `src/data/beverages.json`
@@ -244,12 +273,15 @@ Aplikacja zawiera **54 starannie dobranych napojów**:
 {
   "id": "unique-id",
   "name": "Nazwa napoju",
-  "type": "kawa" | "herbata",
-  "profile": "..." (dla kawy) | "effect": "..." (dla herbaty),
-  "method": "..." (dla kawy) | "intensity": "..." (dla herbaty),
-  "roast": "..." (dla kawy) | "timeOfDay": "..." (dla herbaty),
+  "type": "kawa",
+  "profile": "gorzki-czekoladowy",
+  "method": "espresso",
+  "roast": "light",
   "description": "Opis smaku i charakterystyki"
 }
+```
+
+3. Zapisz i przetestuj!
 
 ---
 
@@ -271,6 +303,11 @@ Semestr V, 2025
 ## 📞 Kontakt
 
 - 🌐 **Demo:** [coffee-tea-expert.netlify.app](https://coffee-tea-expert.netlify.app/)
-- 💻 **GitHub:** [https://github.com/Rafal-wq/coffee-tea-expert.git](https://github.com/Rafal-wq/coffee-tea-expert.git)
-- 📧 **Email:** rafal.wilczewski@studenci.collegiumwitelona.pl
 
+---
+
+<p align="center">
+  <b>Zrobione z ☕ i 🍵</b>
+  <br>
+  <i>Projekt akademicki - Metody Sztucznej Inteligencji</i>
+</p>
