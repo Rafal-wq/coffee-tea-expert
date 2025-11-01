@@ -8,6 +8,8 @@ System ekspercki do doboru napojów - Inteligentne rekomendacje kawy i herbaty d
 
 ### 📱 Zeskanuj kod QR:
 
+
+
 <p align="center">
   <img src="./frame.png" alt="QR Code" width="200"/>
   <br>
